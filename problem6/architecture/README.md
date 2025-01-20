@@ -31,18 +31,23 @@ The Score Update API Module is responsible for handling score updates for users 
         "success": true,
         "newScore": "integer"
     }
+    ```
+    
     - 401 Unauthorized:
     ```json
     {
         "success": false,
         "message": "User unauthorized"
     }
+    ```
+
     - 400 Bad Request
     ```json
     {
         "success": false,  
         "message": "Invalid input"  
     }
+    ```
 
 ### 2. Test
 - **Unit Tests**:
