@@ -64,6 +64,7 @@ The Score Update API Module is responsible for handling score updates for users 
             expect(isValid).toBe(false);
         });
     });
+    ```
     - Score Update Function Test: Ensure that the score updating function works correctly when receiving valid input or returns an error for invalid input.
     ```javascript
     describe('Update Score', () => {
@@ -77,6 +78,7 @@ The Score Update API Module is responsible for handling score updates for users 
             .toThrow('User is not exists');
         });
     });
+    ```
 - **Integration Tests**: Test the entire workflow of the API, including interactions with the database and other dependencies.
     - Valid Input Test: Send a POST request to /api/scores/update with a valid token and check the response.
     - Invalid Input Test: Send a request with an invalid token and check the error response.
