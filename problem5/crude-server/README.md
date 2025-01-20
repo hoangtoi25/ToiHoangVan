@@ -3,6 +3,7 @@
 This is a simple backend application built with ExpressJS and TypeScript that allows CRUD operations with data.
 
 ## Project Directory Structure
+```
 crude-server/
 ├── src/
 │   ├── controllers/
@@ -14,6 +15,7 @@ crude-server/
 │   ├── app.ts
 │   └── config.ts
 └── package.json
+```
 
 
 ## Installation
